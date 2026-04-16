@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devansh Rajpoot | BTech CSE Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #dbeafe;
+    }
+
+    nav {
+      background: #020617;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 25px;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #60a5fa;
+    }
+
+    .about, .skills, .projects, .education, .contact {
+      background: #020617;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+
+    .skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      list-style: none;
+    }
+
+    .skills li {
+      background: #1e293b;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .projects .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    .contact a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Devansh Rajpoot</h1>
+    <p>BTech Computer Science & Engineering | 1st Year</p>
+    <p>Symbiosis Institute of Technology, Nagpur</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a first-year BTech Computer Science & Engineering student at Symbiosis Institute of Technology, Nagpur. I am passionate about programming, technology, and problem-solving, and I enjoy learning new concepts and building practical projects to strengthen my foundation in computer science.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>C Programming</li>
+        <li>Python Basics</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript (Beginner)</li>
+        <li>Data Structures (Learning)</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Student Portfolio Website</h3>
+        <p>A personal portfolio website built using HTML and CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Mini Python Project</h3>
+        <p>A simple Python-based project for practicing logic and syntax.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="education">
+      <h2>Education</h2>
+      <p><strong>BTech in Computer Science & Engineering</strong></p>
+      <p>Symbiosis Institute of Technology, Nagpur</p>
+      <p>Year: 2025 – 2029</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>📞 Phone: <a href="tel:9026605300">9026605300</a></p>
+      <p>📧 Email: <a href="mailto:devansh.rajpoot.batch2025@sitnagpur.siu.edu.in">devansh.rajpoot.batch2025@sitnagpur.siu.edu.in</a></p>
+      <p>💻 GitHub: <a href="#">github.com/yourusername</a></p>
+      <p>🔗 LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Devansh Rajpoot | BTech CSE Student</p>
+  </footer>
+
+</body>
+</html>
